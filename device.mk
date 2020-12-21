@@ -77,6 +77,3 @@ $(call inherit-product, build/target/product/verity.mk)
 # Wifi
 PRODUCT_PACKAGES += \
     JasmineWifiOverlay
-
-# Inherit the proprietary files
-$(call inherit-product, vendor/xiaomi/jasmine_sprout/jasmine_sprout-vendor.mk)
