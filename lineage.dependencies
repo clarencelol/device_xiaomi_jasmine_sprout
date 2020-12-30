@@ -1,6 +1,7 @@
 [
   {
-    "repository": "android_device_xiaomi_wayne-common",
-    "target_path": "device/xiaomi/wayne-common"
+    "repository": "subhajeetmuhuri/device_xiaomi_wayne-common",
+    "target_path": "device/xiaomi/wayne-common",
+    "branch" : "lineage-18.1-4.19"
   }
 ]
