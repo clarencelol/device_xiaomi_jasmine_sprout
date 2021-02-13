@@ -111,7 +111,7 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, vendor/xiaomi/wayne-common/wayne-common-vendor.mk)
 
 # DEVICE
-PRODUCT_NAME := ssos_jasmine_sprout
+PRODUCT_NAME := fluid_jasmine_sprout
 PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MODEL := Mi A2
 PRODUCT_BRAND := Xiaomi

@@ -21,11 +21,11 @@
 # definition file).
 #
 
-# inherit MI A2 device config for ShapeShiftOS
+# inherit MI A2 device config for Project Fluid
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ssos_jasmine_sprout.mk
+    $(LOCAL_DIR)/fluid_jasmine_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    ssos_jasmine_sprout-user \
-    ssos_jasmine_sprout-userdebug \
-    ssos_jasmine_sprout-eng
+    fluid_jasmine_sprout-user \
+    fluid_jasmine_sprout-userdebug \
+    fluid_jasmine_sprout-eng
