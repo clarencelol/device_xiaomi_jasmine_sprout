@@ -1,5 +1,9 @@
 [
   {
+    "repository"  : "device_xiaomi_wayne-common",
+    "target_path" : "device/xiaomi/wayne-common"
+  },
+  {
     "remote"     : "fluid-devices",
     "repository" : "device_xiaomi_sdm660-common",
     "target_path": "device/xiaomi/sdm660-common",
@@ -18,4 +22,3 @@
     "branch"      : "jasmine_sprout"
   }
 ]
-
