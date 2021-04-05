@@ -53,5 +53,5 @@ USE_GAPPS := true
 IS_PHONE := true
 TARGET_GAPPS_ARCH := arm64
 
-# TWRP Support
-BUILD_TWRP := true
+# OFRP Support
+BUILD_OFRP := true
