@@ -33,7 +33,3 @@ $(call inherit-product, build/target/product/verity.mk)
 # Wifi
 PRODUCT_PACKAGES += \
     JasmineWifiOverlay
-
-# Watermark
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/media/MIUI_DualCamera_watermark.png:$(TARGET_COPY_OUT_VENDOR)/etc/MIUI_DualCamera_watermark.png
