@@ -57,9 +57,13 @@ PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/bootdevice/by-name/system
 PRODUCT_VENDOR_VERITY_PARTITION := /dev/block/bootdevice/by-name/vendor
 $(call inherit-product, build/target/product/verity.mk)
 
+# Watermark
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/media/MIUI_DualCamera_watermark.png:$(TARGET_COPY_OUT_VENDOR)/etc/MIUI_DualCamera_watermark.png
+
 # Wifi
 PRODUCT_PACKAGES += \
     JasmineWifiOverlay
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/xiaomi/jasmine_sprout/jasmine_sprout-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/jasmine_sprout/jasmine_sprout-vendor.mk)
