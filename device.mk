@@ -189,12 +189,6 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    GCamGOPrebuilt
-
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/Prebuilt/GCamGOPrebuilt/Configs/lily_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/lily_experience.xml
-
-PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     android.hardware.camera.device@3.5 \
     android.hardware.camera.provider@2.4-impl \
